@@ -75,6 +75,10 @@ section {
     transition: .1s;
 }
 
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
 .header {
     background: var(--bg);
     display: flex;
@@ -164,7 +168,7 @@ section {
     padding:0 1.5rem;
 }
 
-.header .cart-items-container .active {
+.header .cart-items-container.active {
     right: 0;
 }
 
@@ -208,6 +212,8 @@ section {
     text-align: center;
 }
 
+/* ------------------------------------------------------------------------------ */
+
 .home {
     min-height: 100vh;
     display: flex;
@@ -235,6 +241,8 @@ section {
     padding: 1rem 0;
     color: #eee;
 }
+
+/* ------------------------------------------------------------------------------ */
 
 .about .row {
     display: flex;
@@ -267,6 +275,8 @@ section {
     padding: 1rem  0;
     line-height: 1.8;
 }
+
+/* ------------------------------------------------------------------------------ */
 
 .menu .box-container {
     display: grid;
@@ -314,6 +324,8 @@ section {
 .menu .box-container .box:hover > * {
     color: var(--black);
 }
+
+/* ------------------------------------------------------------------------------ */
 
 .products .box-container {
     display: grid;
@@ -380,6 +392,8 @@ section {
     font-size: 1.5rem;
 }
 
+/* ------------------------------------------------------------------------------ */
+
 .review .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -416,6 +430,8 @@ section {
     font-size: 1.5rem;
     color: var(--main-color);
 }
+
+/* ------------------------------------------------------------------------------ */
 
 .contact .row {
     display: flex;
@@ -465,6 +481,8 @@ section {
     text-transform: none;
     background: none;
 }
+
+/* ------------------------------------------------------------------------------ */
 
 .footer {
     background: var(--black);
@@ -538,6 +556,8 @@ section {
     }
 }
 
+/* ------------------------------------------------------------------------------ */
+
 @media (max-width:768px) {
     #menu-btn {
         display: inline-block;
@@ -582,6 +602,8 @@ section {
         font-size: 1.5rem;
     }
 }
+
+/* ------------------------------------------------------------------------------ */
 
 @media (max-width:450px) {
     html {
